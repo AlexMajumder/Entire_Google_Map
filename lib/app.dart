@@ -1,13 +1,13 @@
 import 'package:entire_google_map/screens/ui/home.dart';
 import 'package:flutter/material.dart';
-class GoogleMap extends StatefulWidget {
-  const GoogleMap({super.key});
+class GoogleMapApp extends StatefulWidget {
+  const GoogleMapApp({super.key});
 
   @override
-  State<GoogleMap> createState() => _GoogleMapState();
+  State<GoogleMapApp> createState() => _GoogleMapAppState();
 }
 
-class _GoogleMapState extends State<GoogleMap> {
+class _GoogleMapAppState extends State<GoogleMapApp> {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
